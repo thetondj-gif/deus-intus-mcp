@@ -1,0 +1,20 @@
+{
+  "name": "deus-intus",
+  "interface": {
+    "displayName": "Deus Intus"
+  },
+  "plugins": [
+    {
+      "name": "deus-intus",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-intus"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
