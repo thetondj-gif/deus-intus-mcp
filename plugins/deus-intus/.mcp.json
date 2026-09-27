@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "deus-fabric": {
+      "type": "http",
+      "url": "https://capabilities.deusintus.com/mcp"
+    }
+  }
+}

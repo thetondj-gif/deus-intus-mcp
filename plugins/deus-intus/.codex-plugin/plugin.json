@@ -1,0 +1,32 @@
+{
+  "name": "deus-intus",
+  "version": "0.1.0",
+  "description": "Connect to the Deus Intus capability fabric for governed capability discovery, execution and verification.",
+  "author": {
+    "name": "Deus Intus",
+    "url": "https://github.com/thetondj-gif"
+  },
+  "homepage": "https://github.com/thetondj-gif/deus-intus-mcp",
+  "repository": "https://github.com/thetondj-gif/deus-intus-mcp",
+  "license": "MIT",
+  "keywords": ["mcp", "agents", "automation", "capability", "deus-intus"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Deus Intus",
+    "shortDescription": "One front door to your approved AI capabilities.",
+    "longDescription": "Discover the smallest sufficient existing capability, execute through approved tools and services, and verify outcomes through the Deus Intus capability fabric.",
+    "developerName": "Deus Intus",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "https://github.com/thetondj-gif/deus-intus-mcp",
+    "privacyPolicyURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/TERMS.md",
+    "defaultPrompt": [
+      "Find the smallest capability that can complete this.",
+      "Execute this using my approved Deus Intus tools.",
+      "Verify the result and show me the evidence."
+    ],
+    "brandColor": "#0E1B2A"
+  }
+}
