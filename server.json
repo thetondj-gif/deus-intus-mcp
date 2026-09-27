@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.thetondj-gif/deus-intus",
+  "description": "Deus Intus capability front door for approved capability discovery, governed execution and evidence-led verification.",
+  "repository": {
+    "url": "https://github.com/thetondj-gif/deus-intus-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "websiteUrl": "https://github.com/thetondj-gif/deus-intus-mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://capabilities.deusintus.com/mcp"
+    }
+  ]
+}
