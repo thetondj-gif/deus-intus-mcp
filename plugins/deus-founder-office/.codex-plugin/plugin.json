@@ -1,0 +1,36 @@
+{
+  "interface": {
+    "displayName": "Deus Founder Office",
+    "shortDescription": "Executive coordination pack for turning founder intent into durable, routed and independently verified work across Deus ",
+    "longDescription": "Executive coordination pack for turning founder intent into durable, routed and independently verified work across Deus business units.",
+    "developerName": "Deus Intus",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://www.deusintus.com",
+    "privacyPolicyURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/TERMS.md",
+    "defaultPrompt": [
+      "Use Deus Founder Office to assess my objective and choose the smallest verified capability set.",
+      "Use Deus Founder Office to execute one bounded workflow and show observable evidence for the result.",
+      "Use Deus Founder Office without rebuilding capabilities that already exist."
+    ]
+  },
+  "name": "deus-founder-office",
+  "version": "0.1.0",
+  "description": "Executive coordination pack for turning founder intent into durable, routed and independently verified work across Deus business units.",
+  "author": {
+    "name": "Deus Intus"
+  },
+  "keywords": [
+    "deus-intus",
+    "founder-office",
+    "mcp",
+    "automation"
+  ],
+  "homepage": "https://www.deusintus.com",
+  "repository": "https://github.com/thetondj-gif/deus-intus-mcp",
+  "skills": "./skills",
+  "mcpServers": "./.mcp.json"
+}

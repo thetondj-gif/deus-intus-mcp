@@ -1,0 +1,36 @@
+{
+  "interface": {
+    "displayName": "Deus Revenue Growth",
+    "shortDescription": "Portable revenue workforce for research, offer design, pipeline work, CRM follow-up and conversion analysis.",
+    "longDescription": "Portable revenue workforce for research, offer design, pipeline work, CRM follow-up and conversion analysis.",
+    "developerName": "Deus Intus",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://www.deusintus.com",
+    "privacyPolicyURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/TERMS.md",
+    "defaultPrompt": [
+      "Use Deus Revenue Growth to assess my objective and choose the smallest verified capability set.",
+      "Use Deus Revenue Growth to execute one bounded workflow and show observable evidence for the result.",
+      "Use Deus Revenue Growth without rebuilding capabilities that already exist."
+    ]
+  },
+  "name": "deus-revenue-growth",
+  "version": "0.1.0",
+  "description": "Portable revenue workforce for research, offer design, pipeline work, CRM follow-up and conversion analysis.",
+  "author": {
+    "name": "Deus Intus"
+  },
+  "keywords": [
+    "deus-intus",
+    "revenue-growth",
+    "mcp",
+    "automation"
+  ],
+  "homepage": "https://www.deusintus.com",
+  "repository": "https://github.com/thetondj-gif/deus-intus-mcp",
+  "skills": "./skills",
+  "mcpServers": "./.mcp.json"
+}

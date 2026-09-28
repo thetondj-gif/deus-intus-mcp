@@ -1,0 +1,36 @@
+{
+  "interface": {
+    "displayName": "Deus Creator Studio",
+    "shortDescription": "Portable creator workforce for research, content planning, YouTube production, social repurposing, publishing gates and ",
+    "longDescription": "Portable creator workforce for research, content planning, YouTube production, social repurposing, publishing gates and performance learning.",
+    "developerName": "Deus Intus",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://www.deusintus.com",
+    "privacyPolicyURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/TERMS.md",
+    "defaultPrompt": [
+      "Use Deus Creator Studio to assess my objective and choose the smallest verified capability set.",
+      "Use Deus Creator Studio to execute one bounded workflow and show observable evidence for the result.",
+      "Use Deus Creator Studio without rebuilding capabilities that already exist."
+    ]
+  },
+  "name": "deus-creator-studio",
+  "version": "0.1.0",
+  "description": "Portable creator workforce for research, content planning, YouTube production, social repurposing, publishing gates and performance learning.",
+  "author": {
+    "name": "Deus Intus"
+  },
+  "keywords": [
+    "deus-intus",
+    "creator-studio",
+    "mcp",
+    "automation"
+  ],
+  "homepage": "https://www.deusintus.com",
+  "repository": "https://github.com/thetondj-gif/deus-intus-mcp",
+  "skills": "./skills",
+  "mcpServers": "./.mcp.json"
+}

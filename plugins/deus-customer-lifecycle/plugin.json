@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "deus-customer-lifecycle",
+  "version": "0.1.0",
+  "description": "Orchestrate the full customer journey",
+  "author": {
+    "name": "Deus Intus"
+  },
+  "homepage": "https://www.deusintus.com",
+  "repository": "https://github.com/thetondj-gif/deus-intus-mcp",
+  "keywords": [
+    "deus-intus",
+    "customer-lifecycle",
+    "mcp",
+    "automation"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Customer Lifecycle Pack",
+        "shortDescription": "Orchestrate the full customer journey",
+        "longDescription": "Orchestrate the full customer journey",
+        "developerName": "Deus Intus",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "websiteURL": "https://www.deusintus.com",
+        "privacyPolicyURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/TERMS.md",
+        "defaultPrompt": [
+          "Use Customer Lifecycle Pack to assess my objective and choose the smallest verified capability set.",
+          "Use Customer Lifecycle Pack to execute one bounded workflow and show observable evidence for the result.",
+          "Use Customer Lifecycle Pack without rebuilding capabilities that already exist."
+        ]
+      }
+    }
+  }
+}

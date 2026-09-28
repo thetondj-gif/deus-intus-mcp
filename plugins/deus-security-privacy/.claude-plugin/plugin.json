@@ -1,0 +1,9 @@
+{
+  "name": "deus-security-privacy",
+  "version": "0.1.0",
+  "description": "Security and privacy pack assembled from existing repository scanning, security architecture, compliance and application-security capabilities.",
+  "author": {
+    "name": "Deus Intus"
+  },
+  "homepage": "https://www.deusintus.com"
+}

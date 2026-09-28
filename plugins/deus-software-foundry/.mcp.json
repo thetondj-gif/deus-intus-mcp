@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "deus-intus": {
+      "type": "streamable-http",
+      "url": "https://capabilities.deusintus.com/mcp",
+      "headers": {}
+    }
+  }
+}

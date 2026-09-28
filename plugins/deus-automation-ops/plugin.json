@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "deus-automation-ops",
+  "version": "0.1.0",
+  "description": "Workflow and operations pack assembled from existing workflow automation, process optimisation and governance capabilities.",
+  "author": {
+    "name": "Deus Intus"
+  },
+  "homepage": "https://www.deusintus.com",
+  "repository": "https://github.com/thetondj-gif/deus-intus-mcp",
+  "keywords": [
+    "deus-intus",
+    "automation-ops",
+    "mcp",
+    "automation"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Deus Automation & Operations",
+        "shortDescription": "Workflow and operations pack assembled from existing workflow automation, process optimisation and governance capabiliti",
+        "longDescription": "Workflow and operations pack assembled from existing workflow automation, process optimisation and governance capabilities.",
+        "developerName": "Deus Intus",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "websiteURL": "https://www.deusintus.com",
+        "privacyPolicyURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/TERMS.md",
+        "defaultPrompt": [
+          "Use Deus Automation & Operations to assess my objective and choose the smallest verified capability set.",
+          "Use Deus Automation & Operations to execute one bounded workflow and show observable evidence for the result.",
+          "Use Deus Automation & Operations without rebuilding capabilities that already exist."
+        ]
+      }
+    }
+  }
+}

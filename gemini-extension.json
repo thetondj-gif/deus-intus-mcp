@@ -1,0 +1,14 @@
+{
+  "name": "deus-intus-mcp",
+  "version": "0.1.0",
+  "description": "Deus Intus governed capability fabric and product catalogue.",
+  "mcpServers": {
+    "deus-intus": {
+      "httpUrl": "https://capabilities.deusintus.com/mcp",
+      "authProviderType": "dynamic_discovery",
+      "trust": false,
+      "timeout": 60000
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

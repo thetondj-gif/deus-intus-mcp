@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "deus-medical-os",
+  "version": "0.1.0",
+  "description": "Medical OS — evidence-led research and clinical-informatics support; not patient-care automation.",
+  "author": {
+    "name": "Deus Intus"
+  },
+  "homepage": "https://www.deusintus.com",
+  "repository": "https://github.com/thetondj-gif/deus-intus-mcp",
+  "keywords": [
+    "deus-intus",
+    "medical-os",
+    "mcp",
+    "automation"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Medical Os",
+        "shortDescription": "Medical OS — evidence-led research and clinical-informatics support; not patient-care automation.",
+        "longDescription": "Medical OS — evidence-led research and clinical-informatics support; not patient-care automation.",
+        "developerName": "Deus Intus",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "websiteURL": "https://www.deusintus.com",
+        "privacyPolicyURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/TERMS.md",
+        "defaultPrompt": [
+          "Use Medical Os to assess my objective and choose the smallest verified capability set.",
+          "Use Medical Os to execute one bounded workflow and show observable evidence for the result.",
+          "Use Medical Os without rebuilding capabilities that already exist."
+        ]
+      }
+    }
+  }
+}

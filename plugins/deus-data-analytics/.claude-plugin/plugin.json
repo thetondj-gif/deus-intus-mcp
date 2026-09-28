@@ -1,0 +1,9 @@
+{
+  "name": "deus-data-analytics",
+  "version": "0.1.0",
+  "description": "Data and analytics pack assembled from existing statistical analysis, high-performance data processing, metrics review and dashboard capabilities.",
+  "author": {
+    "name": "Deus Intus"
+  },
+  "homepage": "https://www.deusintus.com"
+}

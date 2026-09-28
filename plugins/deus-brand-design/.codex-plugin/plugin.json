@@ -1,0 +1,36 @@
+{
+  "interface": {
+    "displayName": "Deus Brand & Design Studio",
+    "shortDescription": "Brand and design pack assembled from existing visual identity, frontend design, brand-kit and design-system capabilities",
+    "longDescription": "Brand and design pack assembled from existing visual identity, frontend design, brand-kit and design-system capabilities.",
+    "developerName": "Deus Intus",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://www.deusintus.com",
+    "privacyPolicyURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/TERMS.md",
+    "defaultPrompt": [
+      "Use Deus Brand & Design Studio to assess my objective and choose the smallest verified capability set.",
+      "Use Deus Brand & Design Studio to execute one bounded workflow and show observable evidence for the result.",
+      "Use Deus Brand & Design Studio without rebuilding capabilities that already exist."
+    ]
+  },
+  "name": "deus-brand-design",
+  "version": "0.1.0",
+  "description": "Brand and design pack assembled from existing visual identity, frontend design, brand-kit and design-system capabilities.",
+  "author": {
+    "name": "Deus Intus"
+  },
+  "keywords": [
+    "deus-intus",
+    "brand-design",
+    "mcp",
+    "automation"
+  ],
+  "homepage": "https://www.deusintus.com",
+  "repository": "https://github.com/thetondj-gif/deus-intus-mcp",
+  "skills": "./skills",
+  "mcpServers": "./.mcp.json"
+}

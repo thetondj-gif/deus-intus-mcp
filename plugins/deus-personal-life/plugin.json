@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "deus-personal-life",
+  "version": "0.1.0",
+  "description": "Portable personal optimisation pack for finding avoidable recurring cost, reducing life admin and improving the computer and tools the user already owns.",
+  "author": {
+    "name": "Deus Intus"
+  },
+  "homepage": "https://www.deusintus.com",
+  "repository": "https://github.com/thetondj-gif/deus-intus-mcp",
+  "keywords": [
+    "deus-intus",
+    "personal-life",
+    "mcp",
+    "automation"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Deus Personal Savings & Device",
+        "shortDescription": "Portable personal optimisation pack for finding avoidable recurring cost, reducing life admin and improving the computer",
+        "longDescription": "Portable personal optimisation pack for finding avoidable recurring cost, reducing life admin and improving the computer and tools the user already owns.",
+        "developerName": "Deus Intus",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "websiteURL": "https://www.deusintus.com",
+        "privacyPolicyURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/TERMS.md",
+        "defaultPrompt": [
+          "Use Deus Personal Savings & Device to assess my objective and choose the smallest verified capability set.",
+          "Use Deus Personal Savings & Device to execute one bounded workflow and show observable evidence for the result.",
+          "Use Deus Personal Savings & Device without rebuilding capabilities that already exist."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "deus-customer-lifecycle",
+  "version": "0.1.0",
+  "description": "Orchestrate the full customer journey",
+  "author": {
+    "name": "Deus Intus"
+  },
+  "homepage": "https://www.deusintus.com"
+}

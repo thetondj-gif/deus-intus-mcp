@@ -1,7 +1,7 @@
 {
   "name": "deus-intus",
   "interface": {
-    "displayName": "Deus Intus"
+    "displayName": "Deus Intus Marketplace"
   },
   "plugins": [
     {
@@ -9,6 +9,306 @@
       "source": {
         "source": "local",
         "path": "./plugins/deus-intus"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-customer-lifecycle",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-customer-lifecycle"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-automation-ops",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-automation-ops"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-brand-design",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-brand-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-commerce-growth",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-commerce-growth"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-content-command",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-content-command"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-creator-studio",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-creator-studio"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-data-analytics",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-data-analytics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-finance-cfo",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-finance-cfo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-founder-office",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-founder-office"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-governed-research",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-governed-research"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-launch-command",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-launch-command"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-learning-performance",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-learning-performance"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-marketing-growth",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-marketing-growth"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-personal-life",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-personal-life"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-product-factory",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-product-factory"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-research-intelligence",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-research-intelligence"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-revenue-growth",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-revenue-growth"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-security-privacy",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-security-privacy"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-software-foundry",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-software-foundry"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-tender-intelligence",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-tender-intelligence"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-finance-clarity",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-finance-clarity"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-medical-os",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-medical-os"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-operations-autopilot",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-operations-autopilot"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-revenue-intelligence",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-revenue-intelligence"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "deus-world-problems-os",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deus-world-problems-os"
       },
       "policy": {
         "installation": "AVAILABLE",

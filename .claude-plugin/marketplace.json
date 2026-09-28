@@ -1,0 +1,168 @@
+{
+  "name": "deus-intus",
+  "owner": {
+    "name": "Deus Intus"
+  },
+  "metadata": {
+    "description": "Deus Intus portable capability plugins and product packs.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "deus-intus",
+      "description": "Deus Intus governed capability front door.",
+      "version": "0.1.0",
+      "source": "./plugins/deus-intus"
+    },
+    {
+      "name": "deus-customer-lifecycle",
+      "description": "Orchestrate the full customer journey",
+      "version": "0.1.0",
+      "source": "./plugins/deus-customer-lifecycle"
+    },
+    {
+      "name": "deus-automation-ops",
+      "description": "Workflow and operations pack assembled from existing workflow automation, process optimisation and governance capabilities.",
+      "version": "0.1.0",
+      "source": "./plugins/deus-automation-ops"
+    },
+    {
+      "name": "deus-brand-design",
+      "description": "Brand and design pack assembled from existing visual identity, frontend design, brand-kit and design-system capabilities.",
+      "version": "0.1.0",
+      "source": "./plugins/deus-brand-design"
+    },
+    {
+      "name": "deus-commerce-growth",
+      "description": "Portable ecommerce workforce for catalogue quality, merchandising, copy, conversion and performance improvement.",
+      "version": "0.1.0",
+      "source": "./plugins/deus-commerce-growth"
+    },
+    {
+      "name": "deus-content-command",
+      "description": "Deus Content Command",
+      "version": "0.1.0",
+      "source": "./plugins/deus-content-command"
+    },
+    {
+      "name": "deus-creator-studio",
+      "description": "Portable creator workforce for research, content planning, YouTube production, social repurposing, publishing gates and performance learning.",
+      "version": "0.1.0",
+      "source": "./plugins/deus-creator-studio"
+    },
+    {
+      "name": "deus-data-analytics",
+      "description": "Data and analytics pack assembled from existing statistical analysis, high-performance data processing, metrics review and dashboard capabilities.",
+      "version": "0.1.0",
+      "source": "./plugins/deus-data-analytics"
+    },
+    {
+      "name": "deus-finance-cfo",
+      "description": "Finance and CFO workforce assembled from existing financial analysis, reporting, tracking, cash-flow and FP&A capabilities.",
+      "version": "0.1.0",
+      "source": "./plugins/deus-finance-cfo"
+    },
+    {
+      "name": "deus-founder-office",
+      "description": "Executive coordination pack for turning founder intent into durable, routed and independently verified work across Deus business units.",
+      "version": "0.1.0",
+      "source": "./plugins/deus-founder-office"
+    },
+    {
+      "name": "deus-governed-research",
+      "description": "Deus Governed Research",
+      "version": "0.1.0",
+      "source": "./plugins/deus-governed-research"
+    },
+    {
+      "name": "deus-launch-command",
+      "description": "Deus Launch Command",
+      "version": "0.1.0",
+      "source": "./plugins/deus-launch-command"
+    },
+    {
+      "name": "deus-learning-performance",
+      "description": "Learning and performance pack assembled from existing academy, personal second-brain, educational planning and explainer capabilities.",
+      "version": "0.1.0",
+      "source": "./plugins/deus-learning-performance"
+    },
+    {
+      "name": "deus-marketing-growth",
+      "description": "Marketing and growth pack assembled from existing email, copywriting, SEO, paid-social and closed-loop analytics capabilities.",
+      "version": "0.1.0",
+      "source": "./plugins/deus-marketing-growth"
+    },
+    {
+      "name": "deus-personal-life",
+      "description": "Portable personal optimisation pack for finding avoidable recurring cost, reducing life admin and improving the computer and tools the user already owns.",
+      "version": "0.1.0",
+      "source": "./plugins/deus-personal-life"
+    },
+    {
+      "name": "deus-product-factory",
+      "description": "Deus Product Factory",
+      "version": "0.1.0",
+      "source": "./plugins/deus-product-factory"
+    },
+    {
+      "name": "deus-research-intelligence",
+      "description": "Evidence-first research workforce that discovers, triangulates, records and hands off verified knowledge without treating model confidence as proof.",
+      "version": "0.1.0",
+      "source": "./plugins/deus-research-intelligence"
+    },
+    {
+      "name": "deus-revenue-growth",
+      "description": "Portable revenue workforce for research, offer design, pipeline work, CRM follow-up and conversion analysis.",
+      "version": "0.1.0",
+      "source": "./plugins/deus-revenue-growth"
+    },
+    {
+      "name": "deus-security-privacy",
+      "description": "Security and privacy pack assembled from existing repository scanning, security architecture, compliance and application-security capabilities.",
+      "version": "0.1.0",
+      "source": "./plugins/deus-security-privacy"
+    },
+    {
+      "name": "deus-software-foundry",
+      "description": "Multi-worker engineering workforce for bounded repository change, testing, verification and release preparation without binding Deus to one coding provider.",
+      "version": "0.1.0",
+      "source": "./plugins/deus-software-foundry"
+    },
+    {
+      "name": "deus-tender-intelligence",
+      "description": "Evidence-led tender discovery and qualification pack. Drafting and submission remain separate governed actions.",
+      "version": "0.1.0",
+      "source": "./plugins/deus-tender-intelligence"
+    },
+    {
+      "name": "deus-finance-clarity",
+      "description": "Real-time cash and cost visibility",
+      "version": "0.1.0",
+      "source": "./plugins/deus-finance-clarity"
+    },
+    {
+      "name": "deus-medical-os",
+      "description": "Medical OS — evidence-led research and clinical-informatics support; not patient-care automation.",
+      "version": "0.1.0",
+      "source": "./plugins/deus-medical-os"
+    },
+    {
+      "name": "deus-operations-autopilot",
+      "description": "Remove the friction that slows every team",
+      "version": "0.1.0",
+      "source": "./plugins/deus-operations-autopilot"
+    },
+    {
+      "name": "deus-revenue-intelligence",
+      "description": "Turn pipeline signals into predictable growth",
+      "version": "0.1.0",
+      "source": "./plugins/deus-revenue-intelligence"
+    },
+    {
+      "name": "deus-world-problems-os",
+      "description": "World Problems OS — authoritative cross-domain research, evidence synthesis and problem intelligence.",
+      "version": "0.1.0",
+      "source": "./plugins/deus-world-problems-os"
+    }
+  ]
+}

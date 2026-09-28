@@ -1,0 +1,9 @@
+{
+  "name": "deus-research-intelligence",
+  "version": "0.1.0",
+  "description": "Evidence-first research workforce that discovers, triangulates, records and hands off verified knowledge without treating model confidence as proof.",
+  "author": {
+    "name": "Deus Intus"
+  },
+  "homepage": "https://www.deusintus.com"
+}

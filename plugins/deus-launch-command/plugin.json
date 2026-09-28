@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "deus-launch-command",
+  "version": "0.1.0",
+  "description": "Deus Launch Command",
+  "author": {
+    "name": "Deus Intus"
+  },
+  "homepage": "https://www.deusintus.com",
+  "repository": "https://github.com/thetondj-gif/deus-intus-mcp",
+  "keywords": [
+    "deus-intus",
+    "deus-launch-command",
+    "mcp",
+    "automation"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Deus Launch Command",
+        "shortDescription": "Deus Launch Command",
+        "longDescription": "Deus Launch Command",
+        "developerName": "Deus Intus",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "websiteURL": "https://www.deusintus.com",
+        "privacyPolicyURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/TERMS.md",
+        "defaultPrompt": [
+          "Use Deus Launch Command to assess my objective and choose the smallest verified capability set.",
+          "Use Deus Launch Command to execute one bounded workflow and show observable evidence for the result.",
+          "Use Deus Launch Command without rebuilding capabilities that already exist."
+        ]
+      }
+    }
+  }
+}

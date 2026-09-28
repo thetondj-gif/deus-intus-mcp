@@ -1,0 +1,9 @@
+{
+  "name": "deus-software-foundry",
+  "version": "0.1.0",
+  "description": "Multi-worker engineering workforce for bounded repository change, testing, verification and release preparation without binding Deus to one coding provider.",
+  "author": {
+    "name": "Deus Intus"
+  },
+  "homepage": "https://www.deusintus.com"
+}

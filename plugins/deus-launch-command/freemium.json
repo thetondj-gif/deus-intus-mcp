@@ -1,0 +1,38 @@
+{
+  "schema": "deus-intus/freemium/v1",
+  "activation_state": "not_public_until_server_entitlement_gate_verified",
+  "product_key": "deus-launch-command",
+  "pricing_policy": "free-core_then_offer-registry_or_win-x",
+  "entitlements": {
+    "free": "product:deus-launch-command:free",
+    "pro": "product:deus-launch-command:pro",
+    "managed": "product:deus-launch-command:managed"
+  },
+  "tiers": {
+    "free": {
+      "price_gbp": 0,
+      "included": [
+        "capability discovery",
+        "one bounded core workflow",
+        "verification receipt"
+      ],
+      "quota_source": "server_entitlement_policy"
+    },
+    "pro": {
+      "pricing_source": "offer_registry",
+      "included": [
+        "full product workflows",
+        "higher governed usage",
+        "exports and connected actions"
+      ]
+    },
+    "managed": {
+      "pricing_source": "win_x",
+      "included": [
+        "managed implementation",
+        "governed integrations",
+        "support and outcome verification"
+      ]
+    }
+  }
+}

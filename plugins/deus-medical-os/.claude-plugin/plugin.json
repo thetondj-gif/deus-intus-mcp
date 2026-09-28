@@ -1,0 +1,9 @@
+{
+  "name": "deus-medical-os",
+  "version": "0.1.0",
+  "description": "Medical OS — evidence-led research and clinical-informatics support; not patient-care automation.",
+  "author": {
+    "name": "Deus Intus"
+  },
+  "homepage": "https://www.deusintus.com"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "deus-automation-ops",
+  "version": "0.1.0",
+  "description": "Workflow and operations pack assembled from existing workflow automation, process optimisation and governance capabilities.",
+  "author": {
+    "name": "Deus Intus"
+  },
+  "homepage": "https://www.deusintus.com"
+}

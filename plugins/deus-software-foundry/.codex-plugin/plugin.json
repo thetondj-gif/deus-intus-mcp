@@ -1,0 +1,36 @@
+{
+  "interface": {
+    "displayName": "Deus Software Foundry",
+    "shortDescription": "Multi-worker engineering workforce for bounded repository change, testing, verification and release preparation without ",
+    "longDescription": "Multi-worker engineering workforce for bounded repository change, testing, verification and release preparation without binding Deus to one coding provider.",
+    "developerName": "Deus Intus",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://www.deusintus.com",
+    "privacyPolicyURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/TERMS.md",
+    "defaultPrompt": [
+      "Use Deus Software Foundry to assess my objective and choose the smallest verified capability set.",
+      "Use Deus Software Foundry to execute one bounded workflow and show observable evidence for the result.",
+      "Use Deus Software Foundry without rebuilding capabilities that already exist."
+    ]
+  },
+  "name": "deus-software-foundry",
+  "version": "0.1.0",
+  "description": "Multi-worker engineering workforce for bounded repository change, testing, verification and release preparation without binding Deus to one coding provider.",
+  "author": {
+    "name": "Deus Intus"
+  },
+  "keywords": [
+    "deus-intus",
+    "software-foundry",
+    "mcp",
+    "automation"
+  ],
+  "homepage": "https://www.deusintus.com",
+  "repository": "https://github.com/thetondj-gif/deus-intus-mcp",
+  "skills": "./skills",
+  "mcpServers": "./.mcp.json"
+}

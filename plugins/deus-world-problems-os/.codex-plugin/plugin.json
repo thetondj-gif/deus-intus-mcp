@@ -1,0 +1,36 @@
+{
+  "interface": {
+    "displayName": "World Problems Os",
+    "shortDescription": "World Problems OS — authoritative cross-domain research, evidence synthesis and problem intelligence.",
+    "longDescription": "World Problems OS — authoritative cross-domain research, evidence synthesis and problem intelligence.",
+    "developerName": "Deus Intus",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://www.deusintus.com",
+    "privacyPolicyURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/TERMS.md",
+    "defaultPrompt": [
+      "Use World Problems Os to assess my objective and choose the smallest verified capability set.",
+      "Use World Problems Os to execute one bounded workflow and show observable evidence for the result.",
+      "Use World Problems Os without rebuilding capabilities that already exist."
+    ]
+  },
+  "name": "deus-world-problems-os",
+  "version": "0.1.0",
+  "description": "World Problems OS — authoritative cross-domain research, evidence synthesis and problem intelligence.",
+  "author": {
+    "name": "Deus Intus"
+  },
+  "keywords": [
+    "deus-intus",
+    "world-problems-os",
+    "mcp",
+    "automation"
+  ],
+  "homepage": "https://www.deusintus.com",
+  "repository": "https://github.com/thetondj-gif/deus-intus-mcp",
+  "skills": "./skills",
+  "mcpServers": "./.mcp.json"
+}

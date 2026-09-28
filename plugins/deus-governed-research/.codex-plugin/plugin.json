@@ -1,0 +1,36 @@
+{
+  "interface": {
+    "displayName": "Deus Governed Research",
+    "shortDescription": "Deus Governed Research",
+    "longDescription": "Deus Governed Research",
+    "developerName": "Deus Intus",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://www.deusintus.com",
+    "privacyPolicyURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/TERMS.md",
+    "defaultPrompt": [
+      "Use Deus Governed Research to assess my objective and choose the smallest verified capability set.",
+      "Use Deus Governed Research to execute one bounded workflow and show observable evidence for the result.",
+      "Use Deus Governed Research without rebuilding capabilities that already exist."
+    ]
+  },
+  "name": "deus-governed-research",
+  "version": "0.1.0",
+  "description": "Deus Governed Research",
+  "author": {
+    "name": "Deus Intus"
+  },
+  "keywords": [
+    "deus-intus",
+    "dawn-governed-research",
+    "mcp",
+    "automation"
+  ],
+  "homepage": "https://www.deusintus.com",
+  "repository": "https://github.com/thetondj-gif/deus-intus-mcp",
+  "skills": "./skills",
+  "mcpServers": "./.mcp.json"
+}

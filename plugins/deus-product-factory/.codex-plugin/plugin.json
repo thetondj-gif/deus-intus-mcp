@@ -1,0 +1,36 @@
+{
+  "interface": {
+    "displayName": "Deus Product Factory",
+    "shortDescription": "Deus Product Factory",
+    "longDescription": "Deus Product Factory",
+    "developerName": "Deus Intus",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://www.deusintus.com",
+    "privacyPolicyURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/thetondj-gif/deus-intus-mcp/blob/main/TERMS.md",
+    "defaultPrompt": [
+      "Use Deus Product Factory to assess my objective and choose the smallest verified capability set.",
+      "Use Deus Product Factory to execute one bounded workflow and show observable evidence for the result.",
+      "Use Deus Product Factory without rebuilding capabilities that already exist."
+    ]
+  },
+  "name": "deus-product-factory",
+  "version": "0.1.0",
+  "description": "Deus Product Factory",
+  "author": {
+    "name": "Deus Intus"
+  },
+  "keywords": [
+    "deus-intus",
+    "dawn-product-factory",
+    "mcp",
+    "automation"
+  ],
+  "homepage": "https://www.deusintus.com",
+  "repository": "https://github.com/thetondj-gif/deus-intus-mcp",
+  "skills": "./skills",
+  "mcpServers": "./.mcp.json"
+}
